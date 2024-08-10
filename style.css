@@ -1,0 +1,311 @@
+body {
+    font-family: Inter;
+}
+.text-description {
+    color:#727272;
+    font-size: 1em;
+}
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 12vw;
+    margin-bottom: 20vh;
+}
+.section {
+    margin-bottom: 10vh;
+    padding: 0 4vw;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    padding-top: 5vh;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    padding: 0;
+    justify-content: center;
+    margin: 2vh;
+}
+nav a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 1em;
+}
+.top-left-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.banner-title {
+    font-size: 3.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.banner .text-description {
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+.banner-button {
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 14px 25px;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+.banner-img {
+    width: 75vw;
+    margin-bottom: 10vh;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.quick-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+    gap: 5vw;
+}
+.quick-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.quick > div {
+    flex: 1;
+}
+.quick-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.quick-list {
+    font-weight: 500;
+    color: #727272;
+}
+.feature {
+    color: #FF900E;
+}
+.quick .text-description {
+    margin-bottom: 30px;
+}
+.quick .banner-button {
+    display: inline;
+}
+.features {
+    display: flex;
+    gap: 5vh;
+    align-items: center;
+}
+.features > div {
+    flex: 1;
+}
+.thin-rect {
+    height: 100px;
+    width: 5px;
+    background-color: #FF900E;
+}
+.features-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+.features-title-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.features-heading .text-description {
+    margin-bottom: 30px;
+}
+.features-card-title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.features-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.features-card {
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 20px 0px rgba(37, 37, 37, 0.31);
+    border-radius: 10px;
+}
+.features-img {
+    width: 40vw;
+}
+.badge {
+    border-radius: 8px;
+    background: #FF900E;
+    text-align: center;
+    width: 250px;
+    padding: 30px 0;
+    position: relative;
+    bottom: 5em;
+    right: 2em;
+}
+.badge .facts-title {
+    color: white;
+    margin-bottom: 0;
+}
+.experience {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-text-container {
+    width: 100%;
+    justify-content: left;
+}
+.facts-text {
+    width: 30vw;
+}
+.facts-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.facts .text-description {
+    margin-bottom: 5vh;
+}
+.facts-card-container {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.facts-card .text-description {
+    margin: 0;
+    font-size: 1.2em;
+}
+.number {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.facts-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border: solid 1px tomato;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sponsors-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.sponsors-text-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsors-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin: 0 10vw 5vh 10vw;
+    padding: 3vh;
+}
+
+/* smartphone devices */
+@media screen and (max-width: 576px) {
+    .navigation, .quick {
+        flex-direction: column;
+    }
+    .quick-grid {
+        grid-template-columns: 1fr;
+    }
+    .quick-text, .features-text-container, .features img, .facts-text, .facts-card-container, .facts-text-container {
+        width: 70vw;
+    }
+    .features {
+        flex-direction: column-reverse;
+    }
+    .facts-text-container {
+        justify-content: center;
+    }
+    .facts-card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sponsors-img-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh;
+    }
+}
+/* tablet devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .quick {
+        flex-direction: column;
+    }
+    .quick-text, .features-text-container, .features img, .facts-card-container, .facts-text, .facts-text-container {
+        width: 70vw;
+    }
+    .features {
+        flex-direction: column-reverse;
+    }
+    .facts-text-container {
+        justify-content: center;
+    }
+    .features-card-container, .facts-card-container, .sponsors-img-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors-img-container {
+        gap: 3vh;
+    }
+}
